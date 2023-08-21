@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1:hover, h2:hover, h3:hover,h5:hover, li:hover, p:hover{
+    color: #6001d2;
+}
+
+h6{
+    color: red;
+}
+
+.box1{
+    box-shadow: 3px 3px 4px gray;
+}
+
+ .para p{
+    font-size:12px;
+    padding: 8px 0 0;
+}
+
+.para{
+   margin: 0px 12px 0px 0px;
+}
+
+p{
+    font-size: 14px;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h3{
+    font-weight: bold;
+}
+
+/* @media only screen and (min-width:100px) and (max-width:500px) {
+    .logoQ{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+} */
